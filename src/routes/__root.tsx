@@ -77,10 +77,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Gowfe Flats × Tarandowah — Stay. Play. Pure Golf." },
+      { title: "Gowfe Flats × Tarandowah — Stay Here, Play There" },
       { name: "description", content: "A private-style golf stay paired with Tarandowah Golfers Club — one of Canada's most authentic links-style courses in Springfield, Ontario." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Gowfe Flats × Tarandowah — Stay Here, Play There" },
+      { name: "twitter:title", content: "Gowfe Flats × Tarandowah — Stay Here, Play There" },
+      { property: "og:description", content: "A private-style golf stay paired with Tarandowah Golfers Club — one of Canada's most authentic links-style courses in Springfield, Ontario." },
+      { name: "twitter:description", content: "A private-style golf stay paired with Tarandowah Golfers Club — one of Canada's most authentic links-style courses in Springfield, Ontario." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c28219ee-215e-4b90-92d0-d18c7addb96f/id-preview-9361d9dd--98deca55-eb4e-40e9-8b36-4527ae91be51.lovable.app-1781337475462.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c28219ee-215e-4b90-92d0-d18c7addb96f/id-preview-9361d9dd--98deca55-eb4e-40e9-8b36-4527ae91be51.lovable.app-1781337475462.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
